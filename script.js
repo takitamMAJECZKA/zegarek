@@ -51,11 +51,11 @@ function updateDate(){
     let dayslong
     switch(date.getMonth()){
         case 0:
-            month = 'January'
+            month = 'Styczeń'
             dayslong = 31 
             break;
         case 1:
-            month = 'February'
+            month = 'Luty'
             if (date.getFullYear()%4 == 0){
                 dayslong = 29
             }else{
@@ -63,43 +63,43 @@ function updateDate(){
             }
             break;
         case 2:
-            month = 'March'
+            month = 'Marzec'
             dayslong = 31
             break;
         case 3:
-            month = 'April'
+            month = 'Kwiecień'
             dayslong = 30
             break;
         case 4:
-            month = 'May'
+            month = 'Maj'
             dayslong = 31
             break;
         case 5:
-            month = 'June'
+            month = 'Czerwiec'
             dayslong = 30
             break;
         case 6:
-            month = 'July'
+            month = 'Lipec'
             dayslong = 31
             break;
         case 7:
-            month = 'August'
+            month = 'Sierpień'
             dayslong = 31
             break;
         case 8:
-            month = 'September'
+            month = 'Wrzesień'
             dayslong = 30
             break;
         case 9:
-            month = 'October'
+            month = 'Październik'
             dayslong = 31
             break;
         case 10:
-            month = 'November'
+            month = 'Listopad'
             dayslong = 30
             break;
         case 11:
-            month = 'December'
+            month = 'Grudzień'
             dayslong = 31
             break;
     }
