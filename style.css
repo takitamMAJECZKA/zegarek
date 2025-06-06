@@ -49,15 +49,6 @@
     width: 20vw;
     min-width: 350px;
 }
-#day{
-    transform: skew(-15deg, -15deg);
-}
-#month{
-    transform: skew(15deg, 15deg);
-}
-#year{
-    transform: skew(-15deg, -15deg);
-}
 footer{
     position: fixed;
     bottom: 0;
